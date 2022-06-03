@@ -1,6 +1,8 @@
 import "./index.css";
 import { Button } from "@storybook/react/demo";
 import { storiesOf } from "@storybook/react";
+import LogHeader from "LogHeader/stories/";
+import LogRecord from "LogRecord/stories/";
 import React from "react";
 
 storiesOf("Button", module)
